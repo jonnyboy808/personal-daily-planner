@@ -1,1 +1,1 @@
-# personal-daily-planner
+# Personal Daily Planner
