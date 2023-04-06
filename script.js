@@ -25,13 +25,13 @@ $(function () {
 
 
 
-// function updateClock (){
-//   var now = dayjs().format('MMM D, YYYY h:mm:ss A');
-// $('#currentDay').text(now);
-// }
-// $(document).ready(function() {
-//   setInterval('updateClock()', 1000);
-// });
+function updateClock (){
+  var now = dayjs().format('MMM D, YYYY h:mm:ss A');
+$('#currentDay').text(now);
+}
+$(document).ready(function() {
+  setInterval('updateClock()', 1000);
+});
 
 
 
@@ -46,7 +46,7 @@ $("#hour-5 .description").val(localStorage.getItem("hour-5"));
 
 $(document).ready(function() {
 
-  $("#currentDay").text(moment().format("MMM Do, YYYY, h:MM a"));
+  // $("#currentDay").text(moment().format("MMM Do, YYYY, h:MM a"));
 
 function checkHour() {
   var currentHour = moment().hour();
@@ -250,7 +250,12 @@ function checkHour() {
 
 } checkHour();
 
-
+$(".saveBtn").on("click", function () {
+  event.preventDefault();
+  var time = $(this).parent().attr("id");
+  var text = $(this).siblings(".description").val();
+  localStorage.setItem(time, text);
+})
 
 })
 
