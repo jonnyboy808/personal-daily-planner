@@ -31,11 +31,11 @@ This simple work day scheduler allows you to enter 3 lines worth of tasks for an
 
 
 In the top section of this web page the current date and time is shown for your convinence. At the same time the seconds are shown to be constantly updated for your convinence. See below screenshot for an example.
-![Example of homepage](assets/image-1.png)
+![Example of header date and time](assets/image-1.png)
 
 
 Below is an example of the three lines of text you can input per time slot
-![Example of end of quiz](assets/image-2.png)
+![Example of time slot](assets/image-2.png)
 
 ---
 
