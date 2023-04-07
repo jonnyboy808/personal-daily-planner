@@ -8,7 +8,7 @@ This simple and easy to use work day planner allows you enter your tasks for eac
 
 ## Installation
 
-No type of installation needed for this application, simply visit the above link and follow the prompts to generate a new password.
+No type of installation needed for this application, simply visit the above link and start entering your daily tasks.
 
 ## Technology used
 Below are the links for styling and technology used:
